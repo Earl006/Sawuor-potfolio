@@ -1,6 +1,7 @@
 import React from 'react';
 import videoSource from './vid/back.mp4';
 import { TypeAnimation } from 'react-type-animation';
+import {FaTwitter,FaLinkedin, FaTelegram, FaWhatsapp} from 'react-icons/fa'
 
 function Main() {
   return (
@@ -38,6 +39,20 @@ function Main() {
               repeat={Infinity}
             />
           </h2>
+          <div className="flex items-center justify-center mt-4">
+      <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+        <FaTwitter className="cursor-pointer text-white text-2xl lg:text-4xl mr-4" size={20} />
+      </a>
+      <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
+        <FaTelegram className="cursor-pointer text-white text-2xl lg:text-4xl mr-4" size={20} />
+      </a>
+      <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin className="cursor-pointer text-white text-2xl lg:text-4xl mr-4" size={20} />
+      </a>
+      <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+        <FaWhatsapp className="cursor-pointer text-white text-2xl lg:text-4xl mr-4" size={20} />
+      </a>
+    </div>
         </div>
       </div>
     </div>
