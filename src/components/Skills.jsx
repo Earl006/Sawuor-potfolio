@@ -6,7 +6,7 @@ function Skills() {
     { name: 'CSS', percentage: 85 },
     { name: 'JavaScript', percentage: 80 },
     { name: 'React', percentage: 75 },
-    { name: 'Git', percentage: 70 },
+    { name: 'Git and GitHub', percentage: 70 },
   ];
 
   const circleRefs = useRef([]);

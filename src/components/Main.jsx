@@ -5,7 +5,7 @@ import {FaTwitter,FaLinkedin, FaTelegram, FaWhatsapp} from 'react-icons/fa'
 
 function Main() {
   return (
-    <div className="relative">
+    <div id='main' className="relative">
       <video autoPlay muted loop className="video-background h-screen w-full object-cover relative z-0">
         <source src={videoSource} type="video/mp4" />
       </video>

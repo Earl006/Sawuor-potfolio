@@ -3,6 +3,7 @@ import Sidenav from './components/Sidenav'
 import Main from './components/Main'
 import About from './components/About'
 import Skills from './components/Skills'
+import Certifications from './components/Certifications'
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
      <Main/>
      <About/>
      <Skills/>
+     <Certifications/>
     </div>
   )
 }
