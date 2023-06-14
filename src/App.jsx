@@ -4,6 +4,7 @@ import Main from './components/Main'
 import About from './components/About'
 import Skills from './components/Skills'
 import Certifications from './components/Certifications'
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
      <About/>
      <Skills/>
      <Certifications/>
+     <Footer/>
     </div>
   )
 }
